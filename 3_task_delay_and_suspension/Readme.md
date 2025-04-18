@@ -1,12 +1,18 @@
-🧠 Goal
-Create two tasks:
+# 🔹 Project 03 – Task Delay and Task Suspension Demo
 
-Task A runs periodically with a delay.
+This project shows how one task can suspend and resume another, demonstrating external task control in FreeRTOS.
 
-Task B suspends and resumes Task A after a fixed interval.
+## 🧠 Concepts Covered
+- Task suspension (`vTaskSuspend`)
+- Task resumption (`vTaskResume`)
+- Task delay (`vTaskDelay`)
 
-This will demonstrate:
+## 🛠️ Hardware Required
+- ESP32 Dev Board
 
-vTaskDelay() — to pause a task for a fixed time.
+## 🖥️ Expected Serial Output
+Task A is running... Task B suspending Task A Task B resuming Task A ...
 
-vTaskSuspend() and vTaskResume() — to externally suspend/resume another task.
+
+## 📌 Notes
+Task handles are used to control other tasks. Suspension is cooperative — only safe points are suspended.
