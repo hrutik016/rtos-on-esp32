@@ -45,4 +45,4 @@ Each folder includes:
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/esp32-freertos-labs.git
+   git clone https://github.com/hrutik016/esp32-freertos-labs.git
